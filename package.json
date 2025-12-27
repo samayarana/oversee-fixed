@@ -1,8 +1,5 @@
 {
   "name": "OverSee",
-  "version": "0.2.0",
-  "description": "OverSee is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.",
-  "name": "OverSee",
   "version": "2.0",
   "description": "Open-Source panel inside dashboard",
   "main": "index.js",
@@ -18,8 +15,6 @@
     "createUser": "node exec/createUser.js",
     "build:css": "npx tailwindcss -i ./public/tw.conf -o ./public/assets/tailwind.css --watch"
   },
-  "author": "OverSeeLabs",
-  "license": "ISC",
   "author": "Hydren",
   "license": "MIT",
   "dependencies": {
